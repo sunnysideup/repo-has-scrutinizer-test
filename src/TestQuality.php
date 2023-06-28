@@ -5,13 +5,8 @@ namespace Sunnysideup\RepoHasScrutinizerTest;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 
-$packages = ['vendor1/package1', 'vendor2/package2', 'vendor3/package3'];  // Replace with your array
-
 $client = new Client();
 
-foreach ($packages as $package) {
-
-}
 class TestQuality
 {
     protected function getClient()
