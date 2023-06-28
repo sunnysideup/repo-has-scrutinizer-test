@@ -1,0 +1,21 @@
+{
+    "name": "sunnysideup/repo-has-scrutinizer-test",
+    "description": "Checks for a given list of packages if scrutinizer has been set up",
+    "type": "vendormodule",
+    "require": {
+        "guzzlehttp/guzzle": "7.7.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sunnysideup\\RepoHasScrutinizerTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nicolaas",
+            "email": "github@sunnysideup.co.nz"
+        }
+    ],
+    "minimum-stability": "dev"
+}

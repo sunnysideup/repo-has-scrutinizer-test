@@ -19,7 +19,7 @@ class TestQuality
         return new Client();
     }
 
-    public function listedOnScrutinizer(string $packageName)
+    public function isListedOnScrutinizer(string $packageName)
     {
         $client = $this->getClient();
         list($vendor, $package) = explode('/', $packageName);
